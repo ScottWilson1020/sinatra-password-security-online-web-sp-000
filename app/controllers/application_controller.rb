@@ -20,6 +20,8 @@ class ApplicationController < Sinatra::Base
     user = User.new(:username=> 
     params[:username], :password => 
     params[:password])
+    
+    
 	end
 
 	get "/login" do
